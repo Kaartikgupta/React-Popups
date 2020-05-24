@@ -11,7 +11,7 @@
             <div className="black" />
             <div className="image" />
             <div className="innerbox">
-              <div className="text"><h4><span>LOGIN</span></h4>
+              <div className="text"><h4><span>LOGIN!</span></h4>
                 <div className="inputbox">
                   <input className="inputs" type="text" placeholder="Username" />
                 </div>
