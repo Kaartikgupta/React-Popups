@@ -106,6 +106,12 @@ h4::before{
   position: absolute;
   left: 10px;
   top: 50%;
+  border-radius: 10px;
+  background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,#333333, #dd1818 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#333333, #dd1818 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   /* z-index: -2; */
 }
 h4::after{
@@ -115,8 +121,12 @@ h4::after{
   height: 2px;
   background: #eb5757;
   position: absolute;
-  right: 10px;
+  right: 10px;                                                  
   top: 50%;
+  border-radius: 10px;
+  background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818,#000000 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818,#333333 );
   /* z-index: -2; */
 }
 span{
