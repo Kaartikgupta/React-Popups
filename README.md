@@ -1,2 +1,2 @@
 # React-Popups
-Popups of login and signup page in react
+This repository contains the reactJS code to create popups using ReactJSP Popups of login and signup page.
